@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<title>Info Vis Project - GWelk</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- This template was taken from w3schools.com: https://www.w3schools.com/w3css/w3css_templates.asp -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">A Summary of Vaccine Reported Events</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#dth" class="w3-bar-item w3-button">Deaths</a>
+      <a href="#inj" class="w3-bar-item w3-button">Injuries</a>
+      <a href="#source" class="w3-bar-item w3-button">Source</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <!-- <img class="w3-image" src="/w3images/hamburger.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Le Catering</h1>
+  </div> -->
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- "About" Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">How safe are vaccines in the United States?</h1><br>
+      <p class="w3-large w3-text-grey w3-hide-medium">Despite the controversy surrounding the safety of vaccines, most people trust that the CDC and drug manufacturers know what they are doing.  Is that a smart choice? The goal of this page is to present (the most objective) numbers (we currently have) regarding injuries or deaths that may be directly attributed to the administering of vaccines in the US.
+      <p class="w3-large w3-text-grey w3-hide-medium">The Vaccine Adverse Events Reporting System (VAERS) was created to keep track of problematic side effects reported to healthcare providers. This system of record is kept and maintained by the Centers for Disease Control. Each year the VAERS database publishes its dataset documenting complications and deaths which could be the result of immunizations administered in the United States.</p>
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <!-- add image here -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <img src="syringes-and-vial.jpg" class="w3-round w3-image w3-opacity-min" alt="BarGraph" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- "Deaths" Section -->
+  <div class="w3-row w3-padding-64" id="dth">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="BarGraph2017DeathsbyVax.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">Reported Deaths</h1><br>
+      <!-- <h5 class="w3-center">Some vaccines may be directly responsible for deaths.</h5> -->
+      <p class="w3-large w3-text-grey w3-hide-medium">Some vaccines may be directly responsible for deaths. In 2017, there were a total of 120 deaths recorded after a patient recieved a vaccination.  The vaccine with seemingly the highest risk was a combination vaccine, potentially causing 39 deaths. This vaccine consisted of two or more of the following: Diptheria, Tetanus, Pertussis, Polio, Hib, Hepatitis.</p>
+
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- "injuries" Section -->
+  <div class="w3-row w3-padding-64" id="inj">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Reported Injuries</h1><br>
+      <p class="w3-large w3-text-grey w3-hide-medium">Many patients don't have reactions as severe as death. Other reactions, which may include migraines, allergies, infections, seizures, dizziness, shock, hepatic failure, acute kidney injury, and a wide variety of other ailments also get reported to VAERS. A total of 38,916 injuries were reported as potentially being a direct result of immunizations in 2017.</p>
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <img src="BarGraph2017injuriesbyvax.png" class="w3-round w3-image w3-opacity-min" alt="BarGraph" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- "what else to know" Section -->
+  <div class="w3-row w3-padding-64" id="source">
+    <div class="w3-col l6 w3-padding-large">
+      <p class="w3-large w3-text-grey w3-hide-medium"><h1>Other things to know</h1><br>
+      <p class="w3-large w3-text-grey w3-hide-medium">There are a couple of points to know about the VAERS numbers.  The CDC explicitly states that correlation is not causation.  It is unknown whether these reported events are caused by the vaccines, only that they occured AFTER the patient received the vaccine.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Additionally, it should be noted that VAERS is a passive reporting system.  This means they rely on patients and doctors to volunteer their accounts/experiences.  Because of this, the numbers are likely lower than actual, as not all events will be reported.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">For more details on VAERS and its effectiveness and limitations, please refer to:<br> Shimabukuro TT, Nguyen M, Martin D, DeStefano F. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4632204/">Safety monitoring in the Vaccine Adverse Event Reporting System (VAERS).</a> Vaccine. 2015;33(36):4398-4405. doi:10.1016/j.vaccine.2015.07.035.</p>
+    </div>
+
+    <div class="w3-col l6 w3-padding-large">
+      <p class="w3-large w3-text-grey w3-hide-medium"><h1>Source</h1><br>
+      <p class="w3-large w3-text-grey w3-hide-medium">The data seen here was extracted from the <a href="https://vaers.hhs.gov/index.html">Vaccine Adverse Events Reporting System</a> from the US Department of Health and Human Services.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Please note, the data from VAERS specifically states: "...the inclusion of events in VAERS data does not imply causality."</p>
+    </div>
+  </div>
+
+  <!-- "Sources" section -->
+  <!-- <div class="w3-container w3-padding-64" id="source">
+    <h1>Source</h1><br>
+    <p class="w3-large w3-text-grey w3-hide-medium">The data seen here was extracted from the <a href="https://vaers.hhs.gov/index.html">Vaccine Adverse Events Reporting System</a> from the US Department of Health and Human Services.</p>
+    <p class="w3-large w3-text-grey w3-hide-medium">Please note, the data from VAERS specifically states: "...the inclusion of events in VAERS data does not imply causality."</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, 42nd Living St, 43043 New York, NY</b></p>
+    <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form> -->
+
+  <hr>
+        <p class="w3-large w3-text-grey w3-hide-medium"><h1>Want to learn more?</h1><br>
+
+
+        <!-- "LearnMore" Section -->
+    <div class="w3-row w3-padding-64" id="LearnMore">
+      <div class="w3-col l6 w3-padding-large">
+
+        <h1 class="w3-xlarge">Pro-Vax</h1>
+        <p class="w3-large w3-text-grey w3-hide-medium">Websites in favor of vaccines for all</p>
+        <p class="w3-large w3-text-grey w3-hide-medium"><a href="https://www.apha.org/topics-and-issues/vaccines">APHA - American Public Health Association</a></p>
+        <!-- <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4632204/">article</a> -->
+        <p class="w3-large w3-text-grey w3-hide-medium">Article from Vox.com: <a href="https://www.vox.com/cards/vaccines-facts-measles-autism-dangers/anti-vaxxers-science">9 myths about vaccines and the anti-vaxxer movement</a>
+          <p class="w3-large w3-text-grey w3-hide-medium"><a href="http://www.vaccineinformation.org/">Vaccine Information.org</a>
+      </div>
+
+      <div class="w3-col l6 w3-padding-large">
+        <!-- <p class="w3-large w3-text-grey w3-hide-medium"><h1>Source</h1><br> -->
+        <h1 class="w3-xlarge">Pro-Information</h1>
+        <p class="w3-large w3-text-grey w3-hide-medium">Websites in favor of information based decision making</p>
+        <p class="w3-large w3-text-grey w3-hide-medium"><a href="https://www.nvic.org/">NVIC - National Vaccine Information Center</a>
+        <p class="w3-large w3-text-grey w3-hide-medium">Article: <a href="https://www.thehealthyhomeeconomist.com/the-herd-immunity-myth-and-how-it-pits-parent-against-parent/"> Herd Immunity: Junk Science at its Finest</a>
+        <p class="w3-large w3-text-grey w3-hide-medium"><a href="http://www.vacinfo.org/"> Vaccine Information Coalition</a>
+        </div>
+    </div>
+
+  </div>
+
+
+
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>

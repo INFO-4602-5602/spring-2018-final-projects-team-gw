@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<!--head starts here-------------------------------------------------------->
+<head>
+  <title>Info Vis Final Project - GWelk </title>
+  <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- <script src="d3.v4.min.js"></script> -->
+    <!-- <script src="https://d3js.org/topojson.v1.min.js"></script> -->
+</head>
+<!--head ends here-------------------------------------------------------->
+
+
+<body>
+
+  <div id="USVaxDeath">
+    <div id="bar" class="side1"></div>
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+    <script src="VaxDeath2.js"></script>
+  </div>
+
+
+section 1 should end here--------------------------------------------------------
+
+<div class="chart"></div>
+<script>
+
+
+
+</script>
+section 2------------------ from mbostock
+
+  <!-- https://bl.ocks.org/almccon/410b4eb5cad61402c354afba67a878b8
+  The country map is taken from the bl.ocks.org site listed above.
+  -->
+
+  <!--This script tag is where we will create the map-->
+  <!-- <script>
+
+  var width = 960,
+      height = 500;
+  var path = d3.geo.path();
+  var svg = d3.select("body").append("svg")
+      .attr("width", width)
+      .attr("height", height);
+  var url = "https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/us.json"
+
+  d3.json(url, function(error, topology) {
+    if (error) throw error;
+    console.log("topojson", topology)
+
+    var geojson =
+        topojson.feature(topology, topology.objects.counties);
+    console.log("geojson", geojson)
+
+    svg.selectAll("path")
+        .data(geojson.features)
+        .enter().append("path")
+        .attr("d", path);
+  }); -->
+<!--
+  </script> -->
+</body>
+
+</html>

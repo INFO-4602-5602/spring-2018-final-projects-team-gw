@@ -1,0 +1,18 @@
+Vaxtype3,CountDistinct_VAERS_ID,Count
+Anthrax,2,5
+"Combo of DTAP, IPV, HIB, Hep",39,52
+DTAP/TDAP/DTP/TD/DT,7,10
+HIB,23,31
+HPV,17,20
+Hepatitis,22,37
+Influenza,22,38
+MMR / MMRV,3,4
+Meningococcal,4,5
+Pneumococcal,49,73
+Polio,3,3
+Rotavirus,32,43
+Tetanus Toxoid,1,5
+Varicella,2,3
+Yellow Fever,1,6
+Zoster,10,16
+typhoid,2,7
