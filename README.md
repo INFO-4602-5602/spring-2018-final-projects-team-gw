@@ -25,7 +25,7 @@ VaxInj2017.csv
 
 <b>Trouble Acquiring data:</b><br>
 My original goal with this project was to suggest a possible relationship between our increasing vaccination rates/requirements and the increase in health issues among our youth.  My intent was to acquire two types of data
-data documenting the change in the US immunization schedule (showing how many more vaccines our kiddos get today than 30,40, or 50 years ago, as well as the early ages they are required to receive them).  
+data documenting the change in the US immunization schedule (showing how many more vaccines our kiddos get today than 30, 40, or 50 years ago, as well as the early ages they are required to receive them).  
 data showing the increased prevalence of autism, mental illness, asthma, and allergies over the last few decades. 
 While I understand that showing this data would not prove that correlation is causation, the goal was to represent that this link may be something worthy of investigation.
 
