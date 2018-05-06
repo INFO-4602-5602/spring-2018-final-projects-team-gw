@@ -23,7 +23,7 @@ VaxDeaths2017v02.csv
 VaxInj2017.csv
 
 
-<b>Trouble Acquiring data:<b><br>
+<b>Trouble Acquiring data:</b><br>
 My original goal with this project was to suggest a possible relationship between our increasing vaccination rates/requirements and the increase in health issues among our youth.  My intent was to acquire two types of data
 data documenting the change in the US immunization schedule (showing how many more vaccines our kiddos get today than 30,40, or 50 years ago, as well as the early ages they are required to receive them).  
 data showing the increased prevalence of autism, mental illness, asthma, and allergies over the last few decades. 
@@ -40,12 +40,12 @@ In looking at Autism Spectrum Disorders, the CDC’s subset organizations are on
 
 In many other places I found that data had already been gathered and interpreted, and therefore only summary information was available (http://www.aaaai.org/about-aaaai/newsroom/allergy-statistics).  Without access to the raw data itself, I could not be sure the interpretations were accurate.  More importantly, I did not have the freedom to re-aggregate the data to explore for trends and compare across different datasets.
 
-Success: Data acquired!
+<b>Success: Data acquired!</b><br>
 The data that I was able to find was from the Vaccine Adverse Events Reporting System (VAERS). These were hard numbers that I felt I could trust.
 
 However, the VAERS data came with a big disclaimer.  They wanted to ensure that users of the data DO NOT interpret the results as claiming that vaccines CAUSE adverse reactions (although that’s essentially why they are collecting the data - to spot trends in case the data shows a relationship).  So I did what I thought was right - interpret the data as possibly showing a direct link between adverse events and the vaccine.  In addition, I included the disclaimer so as not to misrepresent facts.
 
-Cleaning the data:
+<b>Cleaning the data:</b><br>
 I joined the data (based on the key VAERS_ID) from “2017VAERS_Data.csv” and “2017VAERSVAX.csv” so I could see which deaths were from which vaccines.
 
 I simplified the naming schemes.  For example, the database consisted of 79 unique vaccination types.  After regrouping (for example, combining “PPV” “PNC” “PNC10” and “PNC13” into a new vaccination type caled “Pneumococcal”) there were 39 vaccination types.  The reason for this was twofold: 
@@ -58,7 +58,7 @@ Mistake: I tried to clean the data in Alteryx, but I ended up with incorrect inf
 
 Challenge: I found that there were multiple records for side effects, and I had to make sure not to double count the info.
 
-Visualizing
+<b>Visualizing</b><br>
 
 I initially wanted to use D3.js to create visualizations for this project.  By using D3 it would make the graphs scalable and reusable - in the sense that if/when the data changes the graphs could be dynamically populated (as long as the fields remained the same).
 
@@ -71,17 +71,17 @@ JavaScript For Kids For Dummies by Chris Minnick and Eva Holland, https://d3js.o
 Adding tooltips: http://bl.ocks.org/Caged/6476579 from Justin Palmer’s Block 6476579 ← 3885304
 Wrapping long labels: https://bl.ocks.org/mbostock/7555321 from Mike Bostock’s Block 7555321
 
-Presenting the Visualization
+<b>Presenting the Visualization</b><br>
 I was unsuccessful in integrating my D3 visualizations with my primary webpage (indexv100.html).
 
 Instead, I presented the Tableau graphs as image files in my html document.  In addition to the graphs themselves, I presented the viewer with commentary on the meaning and purpose behind the graphs, the disclaimers, and places to go for more information (on both sides of this controversial issue)
 
 While the D3.js graphs are not directly found in indexv100.html, they are not far away.  I linked the Tableau graphs (found in indexv100.html) to the d3 creations (as a last resort to show some sort of partial success).  Please note these d3 creations have tool-tip interactivity.
 
-Afterthought: Limitations of the Data
+<b>Afterthought: Limitations of the Data</b><br>
 VAERS reports all “Adverse Events” that get reported to them.  In their list of events, it included major events such as human deaths along with minor events such as swelling at the injection site.  It even included “Expired Product Administered” when there was no side effect at all.  If I were to do this over again, I would think critically about the categorization of injuries so as not to confuse critical injuries with minor injuries.  (In fact, I’m surprised the CDC would commingle this data, as it might unnecessarily or inaccurately inflate the numbers.)
 
-Learning outcomes
+<b>Learning outcomes</b><br>
 Worked with d3, even though unsuccessful in placing in final html page
 Stronger in Javascript
 Stronger in html
@@ -89,8 +89,8 @@ Stronger in html
 Narrative storytelling
 Considered the user experience - simplified understanding through graphs
 
-Future Work
+<b>Future Work</b><br>
 If I was to continue on this project, I would collect data from more years and attempt to add interactivity so the viewer could compare trends over time dynamically.
 
-References:
+<b>References:</b><br>
 
