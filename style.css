@@ -24,7 +24,12 @@ path:hover {
 
 /* The next 3 styles came from https://bl.ocks.org/mbostock/3885304 */
 .bar {
-  fill: steelblue;
+  /* fill: steelblue; */
+  display: inline-block;
+  width: 20px;
+  height: 75px;
+  background-color: teal;
+  margin-right: 2px
 }
 
 .bar:hover {
@@ -131,4 +136,31 @@ text.axis-workweek {
 
 text.axis-worktime {
 	fill: #000;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.title {
+  font: bold 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
 }
