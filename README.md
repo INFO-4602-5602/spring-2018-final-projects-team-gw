@@ -58,20 +58,19 @@ Mistake: I tried to clean the data in Alteryx, but I ended up with incorrect inf
 
 Challenge: I found that there were multiple records for side effects, and I had to make sure not to double count the info.
 
-<b>Visualizing</b><br>
-
+<b>Visualizing:</b><br>
 I initially wanted to use D3.js to create visualizations for this project.  By using D3 it would make the graphs scalable and reusable - in the sense that if/when the data changes the graphs could be dynamically populated (as long as the fields remained the same).
 
 As a protoype, I created bar graphs in Tableau.  My goal was to be simple, clear, and meaningful.  I tried to achieve this by clearly labeling the axes, the title of the graph, and the qty that the height each bar graph represented.  Even though I felt these were self-explanatory, I added commentary to further narrate the story as a whole.
 
 I made lots of attempts with d3 accompanied by much frustration.  I looked to classmates and instructors for support, but the timing didn’t seem to work out.  In addition, I used 
-Scott Murray’s book Interactive Data Visualization for the Web: An Introduction to Designing with D3
+<ul>Scott Murray’s book Interactive Data Visualization for the Web: An Introduction to Designing with D3</ul>
 web tutorials from “Mike Bostock's Blocks” - bl.ocks.org
 JavaScript For Kids For Dummies by Chris Minnick and Eva Holland, https://d3js.org/, https://swizec.com/blog/3-key-insights-make-d3-js-easy-learn/swizec/8179.
 Adding tooltips: http://bl.ocks.org/Caged/6476579 from Justin Palmer’s Block 6476579 ← 3885304
 Wrapping long labels: https://bl.ocks.org/mbostock/7555321 from Mike Bostock’s Block 7555321
 
-<b>Presenting the Visualization</b><br>
+<b>Presenting the Visualization:</b><br>
 I was unsuccessful in integrating my D3 visualizations with my primary webpage (indexv100.html).
 
 Instead, I presented the Tableau graphs as image files in my html document.  In addition to the graphs themselves, I presented the viewer with commentary on the meaning and purpose behind the graphs, the disclaimers, and places to go for more information (on both sides of this controversial issue)
@@ -81,7 +80,7 @@ While the D3.js graphs are not directly found in indexv100.html, they are not fa
 <b>Afterthought: Limitations of the Data</b><br>
 VAERS reports all “Adverse Events” that get reported to them.  In their list of events, it included major events such as human deaths along with minor events such as swelling at the injection site.  It even included “Expired Product Administered” when there was no side effect at all.  If I were to do this over again, I would think critically about the categorization of injuries so as not to confuse critical injuries with minor injuries.  (In fact, I’m surprised the CDC would commingle this data, as it might unnecessarily or inaccurately inflate the numbers.)
 
-<b>Learning outcomes</b><br>
+<b>Learning outcomes:</b><br>
 Worked with d3, even though unsuccessful in placing in final html page
 Stronger in Javascript
 Stronger in html
@@ -89,7 +88,7 @@ Stronger in html
 Narrative storytelling
 Considered the user experience - simplified understanding through graphs
 
-<b>Future Work</b><br>
+<b>Future Work:</b><br>
 If I was to continue on this project, I would collect data from more years and attempt to add interactivity so the viewer could compare trends over time dynamically.
 
 <b>References:</b><br>
