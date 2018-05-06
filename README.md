@@ -1,11 +1,11 @@
 # finalproject-infovis
-Final Project Readme
-Class: INFO 4602-5602 “Information Visualization”
-Instructor: Dr. Danielle Szafir
-Final Project Title: A Summary of Vaccine Reported Events in 2017
-Authored by: Gena Welk
-(solo project - no collaborative team members)
-Date: May 5, 2018
+Final Project Readme<br>
+Class: INFO 4602-5602 “Information Visualization”<br>
+Instructor: Dr. Danielle Szafir<br>
+Final Project Title: A Summary of Vaccine Reported Events in 2017<br>
+Authored by: Gena Welk<br>
+(solo project - no collaborative team members)<br>
+Date: May 5, 2018<br>
 
 <b>What to grade:</b><br>
 Indexv100.html - this is the main page, including graphics and formatting
@@ -92,4 +92,14 @@ Considered the user experience - simplified understanding through graphs
 If I was to continue on this project, I would collect data from more years and attempt to add interactivity so the viewer could compare trends over time dynamically.
 
 <b>References:</b><br>
+<ul>Vaccine Adverse Events Reporting System: https://vaers.hhs.gov/</ul>
+  <ul>VAERS Dataset https://vaers.hhs.gov/data.html</ul>
+  <ul>Centers for Disease Control: https://www.cdc.gov/</ul>
+  <ul>Autism Speaks: https://www.autismspeaks.org/</ul>
+  <ul>Colorado's Autism and Developmental Disabilities Monitoring Network: https://www.colorado.gov/pacific/cdphe/colorado-autism-and-developmental-disabilities-monitoring-addm-project</ul>
+<ul>Scott Murray’s book Interactive Data Visualization for the Web: An Introduction to Designing with D3</ul>
+<ul>web tutorials from “Mike Bostock's Blocks” - bl.ocks.org</ul>
+<ul>JavaScript For Kids For Dummies by Chris Minnick and Eva Holland, https://d3js.org/, https://swizec.com/blog/3-key-insights-make-d3-js-easy-learn/swizec/8179.</ul>
+<ul>Adding tooltips: http://bl.ocks.org/Caged/6476579 from Justin Palmer’s Block 6476579 ← 3885304</ul>
+<ul>Wrapping long labels: https://bl.ocks.org/mbostock/7555321 from Mike Bostock’s Block 7555321</ul>
 
