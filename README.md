@@ -7,7 +7,7 @@ Authored by: Gena Welk
 (solo project - no collaborative team members)
 Date: May 5, 2018
 
-What to grade:
+<b>What to grade:</b><br>
 Indexv100.html - this is the main page, including graphics and formatting
 
 DeathGraphD3.html - this is linked from the image of the Deaths Bar Graph in Indexv100.html (since I could not get it to work in the page) Please note the graph has interactive tool tips.
@@ -23,7 +23,7 @@ VaxDeaths2017v02.csv
 VaxInj2017.csv
 
 
-Trouble Acquiring data:
+<b>Trouble Acquiring data:<b><br>
 My original goal with this project was to suggest a possible relationship between our increasing vaccination rates/requirements and the increase in health issues among our youth.  My intent was to acquire two types of data
 data documenting the change in the US immunization schedule (showing how many more vaccines our kiddos get today than 30,40, or 50 years ago, as well as the early ages they are required to receive them).  
 data showing the increased prevalence of autism, mental illness, asthma, and allergies over the last few decades. 
