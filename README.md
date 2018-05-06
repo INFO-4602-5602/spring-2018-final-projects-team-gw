@@ -63,12 +63,12 @@ I initially wanted to use D3.js to create visualizations for this project.  By u
 
 As a protoype, I created bar graphs in Tableau.  My goal was to be simple, clear, and meaningful.  I tried to achieve this by clearly labeling the axes, the title of the graph, and the qty that the height each bar graph represented.  Even though I felt these were self-explanatory, I added commentary to further narrate the story as a whole.
 
-I made lots of attempts with d3 accompanied by much frustration.  I looked to classmates and instructors for support, but the timing didn’t seem to work out.  In addition, I used 
+I made lots of attempts with d3 accompanied by much frustration.  I looked to classmates and instructors for support, but the timing didn’t seem to work out.  In addition, I used: 
 <ul>Scott Murray’s book Interactive Data Visualization for the Web: An Introduction to Designing with D3</ul>
-web tutorials from “Mike Bostock's Blocks” - bl.ocks.org
-JavaScript For Kids For Dummies by Chris Minnick and Eva Holland, https://d3js.org/, https://swizec.com/blog/3-key-insights-make-d3-js-easy-learn/swizec/8179.
-Adding tooltips: http://bl.ocks.org/Caged/6476579 from Justin Palmer’s Block 6476579 ← 3885304
-Wrapping long labels: https://bl.ocks.org/mbostock/7555321 from Mike Bostock’s Block 7555321
+<ul>web tutorials from “Mike Bostock's Blocks” - bl.ocks.org</ul>
+<ul>JavaScript For Kids For Dummies by Chris Minnick and Eva Holland, https://d3js.org/, https://swizec.com/blog/3-key-insights-make-d3-js-easy-learn/swizec/8179.</ul>
+<ul>Adding tooltips: http://bl.ocks.org/Caged/6476579 from Justin Palmer’s Block 6476579 ← 3885304</ul>
+<ul>Wrapping long labels: https://bl.ocks.org/mbostock/7555321 from Mike Bostock’s Block 7555321</ul>
 
 <b>Presenting the Visualization:</b><br>
 I was unsuccessful in integrating my D3 visualizations with my primary webpage (indexv100.html).
